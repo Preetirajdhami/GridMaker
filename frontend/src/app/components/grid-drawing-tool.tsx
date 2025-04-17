@@ -71,7 +71,7 @@ export function GridDrawingTool() {
           <ControlPanel
             gridSettings={gridSettings}
             updateGridSettings={updateGridSettings}
-            updateGridType={updateGridType} // ✅ pass toggle handler
+            updateGridType={updateGridType} 
             onImageUpload={handleImageUpload}
           />
         </Card>
