@@ -1,10 +1,23 @@
 import { GridDrawingTool } from "./components/grid-drawing-tool";
+import HowTo from "./components/HowTo";
+import Intro from "./components/intro";
 
 const Home = () => {
   return (
-    <main className="min-h-screen p-4 md:p-6 lg:p-8">
-      <h1 className="text-2xl font-bold mb-6">Grid Drawing Tool</h1>
-      <GridDrawingTool />
+    <main className="min-h-screen  bg-base ">
+      {/* Header */}
+      <section className="  mb-10">
+        <h1 className="text-4xl bg-primary md:text-5xl py-5 px-4 font-bold text-primaryText  tracking-tight">
+          Gridify
+        </h1>
+        <Intro />
+        <HowTo />
+      </section>
+
+      {/* Grid Drawing Tool */}
+      <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-10 border border-secondary transition-all">
+        <GridDrawingTool />
+      </section>
     </main>
   );
 };

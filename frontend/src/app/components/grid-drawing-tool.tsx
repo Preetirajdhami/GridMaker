@@ -64,7 +64,7 @@ export function GridDrawingTool() {
   }
 
   return (
-    <div className={`flex ${isMobile ? "flex-col" : "flex-row"} gap-6 w-full`}>
+    <div className={`flex ${isMobile ? "flex-col" : "flex-row"} gap-6 bg-base w-full`}>
       {/* Control Panel */}
       <div className={`${isMobile ? "w-full" : "w-1/3"}`}>
         <Card className="p-4">
