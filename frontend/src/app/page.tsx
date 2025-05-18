@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import { GridDrawingTool } from "./components/grid-drawing-tool";
 import HowTo from "./components/HowTo";
 import Intro from "./components/intro";
@@ -18,6 +19,8 @@ const Home = () => {
       <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-10 border border-secondary transition-all">
         <GridDrawingTool />
       </section>
+
+      <Footer />
     </main>
   );
 };
