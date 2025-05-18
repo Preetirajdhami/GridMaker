@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { ControlPanel } from "./control-panel"
 import { GridOverlay } from "./grid-overlay"
-import { useMobile } from "../hooks/use-mobile"
 
 export type GridSettings = {
   rows: number
@@ -35,7 +34,7 @@ export function GridDrawingTool() {
     isSquareGrid: false,
   })
 
-  const isMobile = useMobile()
+
 
   const handleImageUpload = (imageDataUrl: string) => {
     setImage(imageDataUrl)

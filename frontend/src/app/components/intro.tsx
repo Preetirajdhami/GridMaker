@@ -7,7 +7,7 @@ const Intro = () => {
         A Free Tool Made for Artists 🎨
       </h2>
       <p className="text-primaryText/80 text-lg max-w-2xl mx-auto mb-6">
-        Gridify helps artists, illustrators, and designers create precise grid overlays on their images — absolutely free. Whether you're sketching from a reference or scaling your masterpiece, Gridify makes it simple, accurate, and accessible.
+        Gridify helps artists, illustrators, and designers create precise grid overlays on their images — absolutely free. Whether you&apos;re sketching from a reference or scaling your masterpiece, Gridify makes it simple, accurate, and accessible.
       </p>
       <a href="#grid-tool">
         <button className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 rounded-xl transition-all duration-200">
