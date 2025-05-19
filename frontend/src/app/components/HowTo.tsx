@@ -10,12 +10,12 @@ const steps = [
     description: "Adjust the number of rows and columns, choose your grid line color, thickness, and decide whether you want a square grid.",
   },
   {
-    title: "3. Start Drawing!",
-    description: "Use your gridded reference to sketch your artwork on paper or canvas, maintaining accurate proportions.",
+    title: "3. Download Your Grid Image",
+    description: "Once you're satisfied, download your image with the grid overlay and use it as your reference offline.",
   },
   {
-    title: "4. Download Your Grid Image",
-    description: "Once you're satisfied, download your image with the grid overlay and use it as your reference offline.",
+    title: "4.Start Drawing!",
+    description: "Use your gridded reference to sketch your artwork on paper or canvas, maintaining accurate proportions.",
   },
 ];
 

@@ -60,7 +60,7 @@ export function GridDrawingTool() {
 
   return (
     
-      <div className={`flex flex-col lg:flex-row gap-6`}>
+      <div id="grid-tool" className={`flex flex-col lg:flex-row gap-6`}>
         {/* Control Panel */}
         <div className="w-full lg:w-1/3">
          
