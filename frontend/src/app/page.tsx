@@ -9,7 +9,7 @@ const Home = () => {
     <main className="min-h-screen  bg-base ">
       {/* Header */}
       <section className="  mb-10">
-        <h1 className="text-4xl bg-primary md:text-5xl py-5 px-4 font-bold text-primaryText  tracking-tight">
+        <h1 className=" responsive-padding text-4xl text-center sm:text-left bg-primary md:text-5xl py-5  font-bold text-primaryText  tracking-tight">
           Gridify
         </h1>
         <Intro />
