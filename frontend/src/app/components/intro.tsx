@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center rounded-3xl  md:p-12 p-6 text-center  max-w-7xl mx-auto my-12">
-      {/* Storyset illustration */}
+     
       <div className="flex-1 mb-8 md:mb-0 md:pr-8">
         <img
           src="/hero.png"
