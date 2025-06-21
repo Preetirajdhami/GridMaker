@@ -29,7 +29,7 @@ const WhyGridify = () => {
           </div>
           <h3 className="font-semibold text-lg mb-2">Custom Styling</h3>
           <p className="text-gray-600 text-sm">
-            Choose colors, opacity, and line thickness to match your project's aesthetic needs.
+            Choose colors, opacity, and line thickness to match your project&apos;s aesthetic needs.
           </p>
         </div>
 
