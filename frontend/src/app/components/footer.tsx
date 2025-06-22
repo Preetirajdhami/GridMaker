@@ -6,12 +6,12 @@ const Footer = () => {
     <footer className="bg-primary text-white py-6">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
         
-        {/* Copyright */}
+        
         <p className="text-sm text-center md:text-left">
           © {new Date().getFullYear()} Preeti Rajdhami. All rights reserved.
         </p>
 
-        {/* Social Links */}
+        
         <div className="flex gap-5 text-xl">
           <a href="#" aria-label="Facebook" className="hover:text-primaryText hover:scale-110 transition-transform duration-300">
             <FaFacebook />

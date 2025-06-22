@@ -45,7 +45,7 @@ const WhyGridify = () => {
         </div>
       </div>
 
-      {/* Call-to-action */}
+     
       <div className="bg-secondary text-center rounded-xl py-10 px-6 max-w-3xl mx-auto">
         <h3 className="text-2xl font-semibold text-primaryText mb-2">
           Ready to Perfect Your Compositions?
